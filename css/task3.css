@@ -1,0 +1,193 @@
+@import url('https://fonts.googleapis.com/css2?family=LXGW+WenKai+TC&display=swap');
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "LXGW WenKai TC";
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 56px 70px;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo{
+    color: rgb(162, 12, 162);
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 150%;
+}
+
+
+header nav a,
+.hero-product-about,
+.hero-product-additional-details {
+    color: rgb(220, 93, 220);
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 150%;
+}
+
+.hero-product-price{
+    font-weight: bold;
+    font-size: 30px;
+    color: #050505;
+}
+
+.discount {
+    color: #848181;
+    text-decoration: line-through;
+    margin-left: 10px;
+    font-size: 20px;
+}
+
+header nav{
+    display: flex;
+    gap: 48px;
+    align-items: center;
+}
+
+header button,
+.hero-product-description button{
+    background: rgb(234, 145, 213);
+    color: rgb(54, 51, 51);
+    width: 99px;
+    height: 52px;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.hero-product{
+    margin: 50px 0px 70px;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.hero-product-description{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    max-width: 515px;
+}
+
+h1{
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 110%;
+}
+
+.hero-product-description h2{
+    font-size: 20px;
+    line-height: 150%;
+}
+
+.hero-product-description h2,
+.hero-product-about,
+.hero-product-additional-details{
+    color: #9424a0;
+}
+
+.hero-product-description button{
+    width: unset;
+}
+
+.hero-product-additional-details{
+    font-size: 19px;
+    color: #82368a;
+    font-weight: bold;
+    padding: 10px 125px;
+}
+
+.products h2{
+    font-size: 30px;
+    font-weight: bold;
+    line-height: 150%;
+}
+
+.product-cards{
+    margin: 24px 0px 120px;
+    display: flex;
+    gap: 32px;
+}
+
+.product-card{
+    flex: auto;
+}
+
+.product-cards figcaption h3{
+    margin: 24px;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 150%;
+}
+.product-cards figcaption p{
+    margin: 24px;
+    color: #322626;
+    font-size: 15px;
+    line-height: 100%;
+}
+
+footer{
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid #e6e6e6;
+    padding-top: 48px;
+}
+
+.footer-links{
+    display: flex;
+    gap: 50px;
+}
+
+.footer-links-list{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.footer-links-list a{
+    font-weight: 500;
+    line-height: 50%;
+    color: #454545;
+    text-decoration: none;
+}
+
+.footer-links h3{
+    font-size: 28px;
+}
+
+.footer-info{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.footer-info h2{
+    color: rgb(162, 12, 162);
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 150%;
+}
+
+.social-media{
+    display: flex;
+    align-items: center;
+    gap: 24px;
+}
+
+.social-media img:hover{
+    filter: brightness(50%);
+}
