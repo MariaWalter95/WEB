@@ -63,7 +63,7 @@ button{
 
 .hero{
     height: 981px;
-    background: url(../WEB/images/task4/hero.png);
+    background: url(/images/task4/hero.png);
     background-size: cover;
     display: flex;
     align-items: center;
