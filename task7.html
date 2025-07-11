@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Сеть кондитерских "AUGUST"</title>
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poiret+One&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="css/task7/reset.css">
+    <link rel="stylesheet" href="css/task7/styles.css">
+    <link rel="icon" href="../images/task7/favicon.ico.jpg" type="image/x-icon">
+</head>
+
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="header__inner">
+                <a href="#" class="logo">Сеть кондитерских <span>AUGUST</span></a>
+                <nav class="nav">
+                    <ul class="nav__list">
+                        <li class="nav__item"><a href="#" class="nav__link">Главная</a></li>
+                        <li class="nav__item"><a href="#menu" class="nav__link">Меню</a></li>
+                        <li class="nav__item"><a href="#about" class="nav__link">О нас</a></li>
+                        <li class="nav__item"><a href="#reviews" class="nav__link">Отзывы</a></li>
+                        <li class="nav__item"><a href="#contacts" class="nav__link">Контакты</a></li>
+                    </ul>
+                </nav>
+                <button class="menu-toggle" aria-label="Меню">
+                    <span class="menu-toggle__line"></span>
+                    <span class="menu-toggle__line"></span>
+                    <span class="menu-toggle__line"></span>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <main class="main">
+        <section class="hero">
+            <div class="container">
+                <h1 class="hero__title">AUGUST</h1>
+                <p class="hero__subtitle">Лучшие десерты в городе</p>
+                <div class="hero__buttons">
+                    <a href="#menu" class="btn btn--primary">Ассортимент</a>
+                    <a href="#contacts" class="btn btn--outline">Найти нас</a>
+                </div>
+            </div>
+        </section>
+
+        <section id="about" class="about">
+            <div class="container">
+                <div class="about__inner">
+                    <div class="about__image">
+                        <img src="images/task7/image-about.jfif" alt="">
+                    </div>
+                    <div class="about__content">
+                        <h2 class="section-title">О десертах простыми словами</h2>
+                        <p class="about__text">Сладкие, как мечта. Нежные, как поцелуй. Яркие, как летний день.</p>
+                        <ul class="about__features">
+                            <li class="feature-item">
+                                <i class="fa-solid fa-cheese"></i>&nbsp;&nbsp;
+                                <span>Отборные натуральные ингредиенты  и высокий профессионализм небезразличных людей стали прочным фундаментом нашего бизнеса. </span>
+                            </li>
+                            <li class="feature-item">
+                                <i class="fa-solid fa-cheese"></i>&nbsp;&nbsp;
+                                <span>Сутки от замеса до выпекания – живое тесто медленно набирает вкус и аромат. Долгий цикл приготовления и непривычно короткий срок хранения – именно так мы поддерживаем то качество, которое так ценят наши Гости.</span>
+                            </li>
+                            <li class="feature-item">
+                                <i class="fa-solid fa-cheese"></i>&nbsp;&nbsp;
+                                <span>Симфония вкуса, которую мы создаем каждый день, состоит из муки, родниковой воды, натуральных заквасок, и конечно, ручного труда наших мастеров.   Это простой рецепт нашего успеха.</span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="menu" class="menu">
+            <div class="container">
+                <h2 class="section-title">Ассортимент</h2>
+                <div class="menu__content active" id="coffee">
+                    <div class="menu__grid">
+                        <div class="menu-item">
+                            <div class="menu-item__header">
+                                <h3 class="menu-item__title">Торт Afina</h3>
+                                <span class="menu-item__price">3 000 руб.</span>
+                            </div>
+                            <p class="menu-item__description">Медовые коржи в виде кольца в сочетании с кремом из натуральных сливок и белого шоколада. Декорирован свежими ягодами.</p>
+                        </div>
+                        <div class="menu-item">
+                            <div class="menu-item__header">
+                                <h3 class="menu-item__title">Набор капкейков</h3>
+                                <span class="menu-item__price">1 800 руб.</span>
+                            </div>
+                            <p class="menu-item__description">Предзаказ за 48 часов. Подарочный набор из 3-х ванильных и 3-х шоколадных капкейков. Ванильные с кремом из творожного сыра и ягодной начинкой, украшены свежими ягодами. Капкейки из шоколадного бисквита с насыщенным вкусом и тающей карамельной начинкой внутри.</p>
+                        </div>
+                        <div class="menu-item">
+                            <div class="menu-item__header">
+                                <h3 class="menu-item__title">Лимонный тарт</h3>
+                                <span class="menu-item__price">450 руб.</span>
+                            </div>
+                            <p class="menu-item__description">Воздушное пирожное-тарталетка из песочного теста с приятной лимонной кислинкой, миндальным кремом, ягодами малины и начинкой из лимонного крема. Десерт украшен меренгой. Обладает лёгким цитрусово-ванильным ароматом.</p>
+                        </div>
+                        <div class="menu-item">
+                            <div class="menu-item__header">
+                                <h3 class="menu-item__title">Пирожное Berry</h3>
+                                <span class="menu-item__price">290 руб.</span>
+                            </div>
+                            <p class="menu-item__description">Нежный творожный крем в сочетании с малиной и изысканным шоколадным послевкусием не оставят вас равнодушными.</p>
+                        </div>
+                        <div class="menu-item">
+                            <div class="menu-item__header">
+                                <h3 class="menu-item__title">Круассан с миндалём</h3>
+                                <span class="menu-item__price">340 руб.</span>
+                            </div>
+                            <p class="menu-item__description">Пышный, воздушный, легкий, слоистый, пропитанный сливочным маслом, с чуть хрустящей при надломе корочкой, украшен посыпкой из тонких лепестков миндаля.</p>
+                        </div>
+                        <div class="menu-item">
+                            <div class="menu-item__header">
+                                <h3 class="menu-item__title">Торт Miss</h3>
+                                <span class="menu-item__price">2900 руб.</span>
+                            </div>
+                            <p class="menu-item__description">Предзаказ за 48 часов. Нежный зеркальный торт из муссовой начинки манго-маракуйя и ягодной начинки микс на тонком бисквите.</p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <section id="reviews" class="reviews">
+            <div class="container">
+                <h2 class="section-title">Ваше мнение о нас</h2>
+                <div class="reviews__slider">
+                    <div class="review">
+                        <div class="review__rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <p class="review__text">Прекрасное кафе, все очень вкусно. Огромное спасибо Марине за помощь в выборе десерта. Очень милая, вежливая, знающая о продукте все, что не мало важно для заведения такого уровня. Приду ли ещё? - обязательно.</p>
+                        <div class="review__author">
+                            <img src="images/task7/ppl-1.webp" alt=""
+                                class="review__photo">
+                            <span class="review__name">Анна С.</span>
+                        </div>
+                    </div>
+                    <div class="review">
+                        <div class="review__rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <p class="review__text">Огромная витрина с отличным выбором + меню. Все излучает свежесть, качество, и достаточно вкусно. Залы для еды накроены немного тесновато, но можно простить.</p>
+                        <div class="review__author">
+                            <img src="images/task7/ppl-2.webp" alt=""
+                                class="review__photo">
+                            <span class="review__name">Николай</span>
+                        </div>
+                    </div>
+                    <div class="review">
+                        <div class="review__rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <p class="review__text">Прекрасное кафе - кондитерская. Здесь вкусное кофе, прекрасная выпечка, спокойная и уютная атмосфера. Очень удобное расположение, по пути.</p>
+                        <div class="review__author">
+                            <img src="images/task7/ppl-3.jpg" alt=""
+                                class="review__photo">
+                            <span class="review__name">Лариса Е.</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contacts" class="contacts">
+            <div class="container">
+                <div class="contacts__inner">
+                    <div class="contacts__info">
+                        <h2 class="section-title">Контакты</h2>
+                        <div class="contact-item">
+                            <i class="fas fa-map-marker-alt contact-icon"></i>
+                            <span>Москва, проспект Мира 220</span>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-phone contact-icon"></i>
+                            <span>8-920-900-60-60</span>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-envelope contact-icon"></i>
+                            <span>augustbakery@mail.ru</span>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-clock contact-icon"></i>
+                            <span>Ежедневно, без перерывов 8:00 - 20:00</span>
+                        </div>
+                        <div class="social-links">
+                            <a href="https://www.instagram.com/waltermariya" class="social-link" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                            <a href="https://t.me/mariya_michael" class="social-link" aria-label="Telegram"><i
+                                    class="fab fa-telegram-plane"></i></a>
+                        </div>
+                    </div>
+                    <div class="contacts__map">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2240.351152274924!2d37.66283637725965!3d55.839220673116344!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46b53682fe7fae67%3A0x2e1119c36abcf495!2z0L_RgC3RgiDQnNC40YDQsCwgMjIwLCDQnNC-0YHQutCy0LAsIDEyOTEyOA!5e0!3m2!1sru!2sru!4v1752146587640!5m2!1sru!2sru"
+                        width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__inner">
+                <div class="footer__logo">
+                    <a href="#" class="logo">Сеть кондитерских <span>AUGUST</span></a>
+                    <p class="footer__text">Лучшие десерты в городе</p>
+                </div>
+                <div class="footer__nav">
+                    <h3 class="footer__title">Навигация</h3>
+                    <ul class="footer__list">
+                        <li><a href="#" class="footer__link">Главная</a></li>
+                        <li><a href="#menu" class="footer__link">Меню</a></li>
+                        <li><a href="#about" class="footer__link">О нас</a></li>
+                        <li><a href="#reviews" class="footer__link">Отзывы</a></li>
+                        <li><a href="#contacts" class="footer__link">Контакты</a></li>
+                    </ul>
+                </div>
+                <div class="footer__subscribe">
+                    <h3 class="footer__title">Подписка</h3>
+                    <p class="footer__text">Подпишитесь на наши новости и акции</p>
+                    <form class="subscribe-form">
+                        <input type="email" placeholder="Ваш email" class="subscribe-input">
+                        <button type="submit" class="subscribe-btn"><i class="fas fa-paper-plane"></i></button>
+                    </form>
+                </div>
+            </div>
+            <div class="footer__bottom">
+                <p class="footer__copyright">© Copyright 2025 | Сеть кондитерских AUGUST. Все права защищены.</p>
+            </div>
+        </div>
+    </footer>
+
+
+</body>
+
+</html>
